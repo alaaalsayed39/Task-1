@@ -1,0 +1,151 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.background{
+    background-image:linear-gradient(rgba(49, 71, 89, 0.6), rgba(49, 71, 89, 0.6)), url(../asets/bg\ \(2\).jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+.counter{
+    width: 100px;
+    height: 100ps;
+    background-color: transparent;
+    border: 2px solid white;
+border-radius: 4px;
+
+}
+.home-caption{
+    width: 50%;
+}
+.firstP{
+    font-size: 25px;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.home-caption{
+    /* position: absolute; */
+   margin: auto;
+    left: 25%;
+    padding-top: 100px;
+    
+}
+.btn1{
+    width: 70%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+}
+.btn1 button{
+    background-color: #24b7a4;
+    border: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    position: absolute;
+
+    right: 0px;
+}
+.icon{
+    font-size: 30px;
+    display: flex;
+}
+.iconn{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.iconn:hover{
+    background-color: #24b7a4;
+}
+.cardd{
+width: 32%;
+    }
+
+    .contact  i {
+        font-size: 20px;
+        color: #fff;
+        float: left;
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+    .contact .data .email:hover i,
+    .contact .data .address:hover i,
+    .contact .data .phone:hover i {
+      background: #24b7a4;
+      color: #fff;
+    }
+
+    .contact .data h4 {
+        padding: 0 0 0 60px;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .contact .data p {
+        padding: 0 0 10px 60px;
+        margin-bottom: 20px;
+        font-size: 14px;
+      }
+
+    .contact .data {
+        width: 100%;
+        border-top: 3px solid #24b7a4;
+        border-bottom: 3px solid #24b7a4;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+      }
+
+      .contact .ourForm {
+        width: 100%;
+        border-top: 3px solid #24b7a4;
+        border-bottom: 3px solid #24b7a4;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.06);
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+      }
+
+      .contact .ourForm button[type=submit] {
+        background: #24b7a4;
+        border: 0;
+        padding: 10px 24px;
+        color: #fff;
+        transition: 0.4s;
+        border-radius: 50px;
+        margin-top: 50px;
+      }
+
+    #footer {
+        background: rgba(38, 55, 69, 0.4);
+        padding: 30px 0;
+        color: #fff;
+        font-size: 14px;
+        position: relative;
+        margin-top: 70px;
+    }
+    #footer .instantFooter a {
+        color: #36d8c3;
+      }
